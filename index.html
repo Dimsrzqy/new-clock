@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.5, user-scalable=no" />
+    <link rel="icon" href="https://cdn.glitch.com/5985b910-b9e4-4118-86fd-d46bd9fa0a64%2Fdownload-removebg-preview%20(2).png?v=1595668723574" />
+    <link rel="shorcut icon" href="https://cdn.glitch.com/5985b910-b9e4-4118-86fd-d46bd9fa0a64%2Fdownload-removebg-preview%20(2).png?v=1595668723574" />
+    <meta name="keywords" content="minimalist clock, min clock, clock code, free code, demo, min clock code, light mode, dark mode, dark clock, light clock" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="min-clock.glitch.me" />
+    <meta property="og:site_name" content="Minimalist Clock" />
+    <meta property="og:title" content="Minimalist Clock" />
+    <meta property="og:description" content="This Minimalist Clock is made with source code from Online Tutorials videos. Which was developed so that it becomes more interesting." />
+    <meta property="og:image" content="https://cdn.glitch.com/5985b910-b9e4-4118-86fd-d46bd9fa0a64%2Fdownload-removebg-preview%20(2).png?v=1595668723574" />
+    <meta name="theme-color" content="#222" />
+    <title>jam dimas</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css" />
+    <link id="theme" rel="stylesheet" type="text/css" href="/light-theme.css" />
+  </head>
+  <body>
+    <div class="clock">
+      <div class="hour">
+        <div class="hr" id="hr"></div>
+      </div>
+      <div class="min">
+        <div class="mn" id="mn"></div>
+      </div>
+      <div class="sec">
+        <div class="sc" id="sc"></div>
+      </div>
+    </div>
+    <div id="digitalClock">
+      <div id="hour"></div>
+      <div id="minutes"></div>
+      <div id="seconds" class="other"></div>
+      <div id="ampm"></div>
+    </div>
+    <p>
+      <span id="good"></span>&nbsp|<span class="other">&nbsp<tnd class="typendelete" data-period="4000" data-type='[ "Dimas.", "Tetap semangat.", "Walaupun Jomblo :)" ]'></tnd></span>
+    </p>
+
+    <div id="theme-toggle"></div>
+    <div class="loader-wrapper">
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+
+    <div class="modal fade" id="help">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title" id="myModalLabel">Keyboard Shortcut</h4>
+          </div>
+
+          <div class="modal-body">
+            <table>
+              <tr>
+                <td width="40"><span class="label label-default">?</span></td>
+                <td width="200">Help</td>
+                <td width="40"><span class="label label-default">t</span></td>
+                <td width="200">Change Theme</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mousetrap/1.4.6/mousetrap-bind-dictionary.min.js"></script>
+    <script src="/script.js" defer></script>
+  </body>
+</html>
